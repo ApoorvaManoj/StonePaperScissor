@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.choice{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+} 
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    /* we use object fit taki photo na phate na compress ho*/
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding-top: 20px;
+}
+.choice:hover{
+    opacity: 0.5;
+
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 2rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.score{
+    font-size: 3rem;
+}
+#msg{
+    background-color: black;
+    color:#fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius:22px ;
+}
+.msg-container{
+    margin-top:5rem
+}
